@@ -35,7 +35,7 @@ function generatePassword() {
   }
 
   if (userWantLowercase === true) {
-    option = option.concat(lowerCase)
+    option = option.concat(lowerCase) 
   }
 
   if (userWantNumber === true) {
